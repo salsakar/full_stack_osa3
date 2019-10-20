@@ -1,8 +1,8 @@
 
-post http://localhost:3001/api/persons
+post https://fullstack:t0kEBhi5DtxbJ4y9@cluster0-r04lb.mongodb.net/phonebook?retryWrites=true&w=majority/api/persons
 Content-type: application/json
 
 {
-    "name": "Testaaja",
-    "number": "32141423"
+    "name": "James Bond",
+    "number": "007"
 }
